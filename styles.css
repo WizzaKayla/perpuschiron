@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: #afb4bc; /* Warna abu-abu */
+  color: #333333; /* Warna teks yang kontras, jika diperlukan */
+  margin: 0;
+  font-family: Arial, sans-serif; /* Gaya font dasar, sesuaikan jika perlu */
+}
+
+
+/* Style untuk header */
+header {
+  display: flex;
+  justify-content: space-between; /* Menempatkan logo dan navbar di dua sisi */
+  align-items: center; /* Vertikal menyelaraskan elemen */
+  padding: 20px;
+  background-color: black; /* Ganti sesuai kebutuhan */
+  color: white;
+}
+
+/* Style untuk logo dan judul */
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  max-height: 50px; /* Sesuaikan tinggi logo */
+  margin-right: 15px; /* Jarak antara logo dan judul */
+}
+
+.logo h1 {
+  font-size: 28px;
+  margin: 0; /* Menghilangkan margin default */
+}
+
+/* Style untuk navbar */
+.navbar ul {
+  list-style: none; /* Menghilangkan bullet points */
+  margin: 0;
+  padding: 0;
+  margin-right: 30px;
+  display: flex;
+  gap: 20px; /* Jarak antar item menu */
+}
+
+.navbar li {
+  margin: 0;
+}
+
+.navbar a {
+  color: rgb(222, 213, 213); /* Warna teks tautan */
+  text-decoration: none; /* Menghilangkan garis bawah pada tautan */
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.navbar a:hover {
+  color: #f39c12; /* Warna teks saat hover */
+}
+
+
+/* Main home */
+.home {
+  height: 600px;
+  padding: 20px;
+  color: #000000;
+  margin-bottom: 20px;
+ 
+}
+
+.home h2 {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.home-contents p {
+  font-size: 20px;
+  text-align: left;
+  font-weight: lighter;
+}
+
+/*Aside*/
+aside {
+  flex: 1; 
+  background-color: #959ea3f3;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+aside h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+aside p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.home-image {
+  display: flex;
+  align-items: flex-start;
+}
+
+.home-image img {
+  max-width: 50%; 
+  margin-right: 20px; 
+  height: 350px;
+}
+
+/* Main menu */
+
+.home-img {
+  width: 350px;
+  margin-top: 20px;
+}
+
+.home-img p {
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 30px;
+  font-size: 20px;
+  text-align: right;
+  background-color: #d9edf8;
+}
+
+.menu {
+  margin-top: 20px;
+  padding: 20px;
+
+}
+
+.menu h2 {
+  font-size: 24px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.card-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 10px;
+  width: 250px;
+}
+
+.card p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.menu-img img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+/*main-contact*/
+
+.profile-img {
+  width: 100px; 
+  height: 100px; 
+  border-radius: 50%; 
+  object-fit: cover;
+}
+
+.contact {
+  text-align: center; 
+ 
+}
+
+#main-contents {
+  display: flex;
+  justify-content: center;
+}
+
+#main-contents a {
+  margin: 0 10px; 
+}
+
+/*footer*/
+footer {
+  background-color: #333; 
+  color: #fff;
+  text-align: center; 
+  padding: 20px 0; 
+}
